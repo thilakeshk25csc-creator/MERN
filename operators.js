@@ -23,3 +23,15 @@ console.log(c/=10)
 
 */
 
+//comparision operators 
+/*
+
+var a=12
+var b=23
+console.log("comparision operator");
+console.log(a==b);
+console.log(a!=b);
+console.log(a<=b);
+console.log(a>=b);
+
+*/
