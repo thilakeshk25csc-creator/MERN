@@ -4,4 +4,5 @@ console.log(a+b)
 console.log(a-b)
 console.log(a*b)
 console.log(a/b)
-console.log(a**b)
+console.log(a**b) //power value
+console.log(a%b) //modulus
