@@ -32,6 +32,10 @@ console.log("Big Int");
 var bigInt = 6379964841n; 
 console.log(bigInt);
 
+
+//NON PRIMITIVE
+
+
 //Objects
 // Object declaration (using Object Literal syntax)
 console.log("object");
