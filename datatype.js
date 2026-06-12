@@ -58,4 +58,3 @@ console.log(fruits);
 console.log(fruits[0]); // Outputs: "Apple"
 console.log(fruits[1]); // Outputs: "Banana"
 
-
