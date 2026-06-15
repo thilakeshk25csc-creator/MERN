@@ -30,3 +30,6 @@ do{
 
 }while(count <= 5)
     console.log("outside do ..while");
+
+
+    
