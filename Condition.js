@@ -1,3 +1,5 @@
+//switch statement
+
 var signal="White"
 
 switch(signal){
