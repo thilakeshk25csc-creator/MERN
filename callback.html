@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Callback Example</title>
+</head>
+<body>
+
+    <h2>callback example</h2>
+    
+    <!-- This paragraph will be updated by the callback function -->
+    <p id="output">Waiting for data...</p>
+
+    <script>
+        // 1. Define a function that accepts another function as an argument (the callback)
+        function processUserData(name, callback) {
+            console.log("Processing data for: " + name);
+            
+            // Format the message
+            const formattedMessage = "Hello, " + name + "! Your data has been processed.";
+            
+            // 2. Execute the callback function and pass the result to it
+            callback(formattedMessage);
+        }
+
+        // 3. Define the callback function that handles the processed layout
+        function displayInWebpage(message) {
+            document.getElementById("output").innerText = message;
+        }
+
+        // 4. Call the main function and pass the callback function as an argument
+        // Note: Do not use parentheses () when passing the function name
+        processUserData("Alex", displayInWebpage);
+    </script>
+
+</body>
+</html>
